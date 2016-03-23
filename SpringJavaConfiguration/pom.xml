@@ -11,6 +11,5 @@
 
     <artifactId>spring-java-configuration</artifactId>
     <packaging>jar</packaging>
-
-
+    
 </project>
