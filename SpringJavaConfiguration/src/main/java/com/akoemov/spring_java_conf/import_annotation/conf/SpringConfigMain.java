@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Import;
 @Import(SpringConfigLocal.class)
 public class SpringConfigMain {
 
-    @Bean
+    @Bean(name = "B")
     public B b() {
         return new B();
     }

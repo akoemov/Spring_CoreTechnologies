@@ -16,7 +16,7 @@ public class MainApp {
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfigMain.class);
         // now both beans A and B will be available...
         A a = (A) context.getBean("A");
-        B b = (B) context.getBean("A");
+        B b = (B) context.getBean("B");
 
 
     }
