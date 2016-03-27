@@ -1,9 +1,9 @@
-package com.akoemov.spring_java_conf.import_annotation.main;
+package com.akoemov.spring_java_conf.import_conf.main;
 
 
-import com.akoemov.spring_java_conf.import_annotation.A;
-import com.akoemov.spring_java_conf.import_annotation.B;
-import com.akoemov.spring_java_conf.import_annotation.conf.SpringConfigMain;
+import com.akoemov.spring_java_conf.import_conf.A;
+import com.akoemov.spring_java_conf.import_conf.B;
+import com.akoemov.spring_java_conf.import_conf.conf.SpringConfigMain;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -18,6 +18,7 @@ public class MainApp {
         A a = (A) context.getBean("A");
         B b = (B) context.getBean("B");
 
-
+        System.out.println(a.getClass().getSimpleName());
+        System.out.println(b.getClass().getSimpleName());
     }
 }

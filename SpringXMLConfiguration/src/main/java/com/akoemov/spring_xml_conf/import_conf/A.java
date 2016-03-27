@@ -1,4 +1,4 @@
-package com.akoemov.spring_java_conf.import_annotation;
+package com.akoemov.spring_xml_conf.import_conf;
 
 /**
  * Created by Akoemov on 23.03.2016.

@@ -1,6 +1,6 @@
-package com.akoemov.spring_java_conf.import_annotation.conf;
+package com.akoemov.spring_java_conf.import_conf.conf;
 
-import com.akoemov.spring_java_conf.import_annotation.A;
+import com.akoemov.spring_java_conf.import_conf.A;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
