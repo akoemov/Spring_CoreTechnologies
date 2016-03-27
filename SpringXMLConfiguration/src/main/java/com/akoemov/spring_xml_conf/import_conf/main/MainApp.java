@@ -1,8 +1,6 @@
 package com.akoemov.spring_xml_conf.import_conf.main;
 
 
-
-
 import com.akoemov.spring_xml_conf.import_conf.A;
 import com.akoemov.spring_xml_conf.import_conf.B;
 import org.springframework.context.ApplicationContext;

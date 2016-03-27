@@ -1,11 +1,9 @@
 package com.akoemov.spring_xml_conf.di.main;
 
 
-
 import com.akoemov.spring_xml_conf.di.ConstructorTypeDIBean;
 import com.akoemov.spring_xml_conf.di.SetterTypeDIBean;
 import org.springframework.context.ApplicationContext;
-
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

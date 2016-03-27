@@ -1,7 +1,6 @@
 package com.akoemov.spring_xml_conf.hello_world.main;
 
 
-
 import com.akoemov.spring_xml_conf.hello_world.HelloWorld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
